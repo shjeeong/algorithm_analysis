@@ -12,7 +12,7 @@ RSelect(A[1...n], k)
      if k < j
        RSelect(A[1...j-1], k)
      if k > j
-       RSelect(A[j+1...n], k)
+       RSelect(A[j+1...n], k-j)
 }
 ```
 
