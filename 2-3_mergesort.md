@@ -7,8 +7,6 @@
 ## Pseudo Code
 
 ```
-⌞(l + u) / m⌟
-
 mergesort (A(l...r))
 {
 	if (l < r)
@@ -21,7 +19,16 @@ mergesort (A(l...r))
 
 
 
-## 시간복잡도:
+## 시간복잡도: O(nlgn)
+
+```
+T(n) ≤ 2T(n/2) + Cn
+		≤ 4T(n/4) + 2Cn
+		...
+		≤	lgnT(1) + lgnCn
+```
+
+
 
 
 
