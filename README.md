@@ -8,8 +8,6 @@ ch3. dynamic programming
 
 ch4. greedy
 
-- huffmon code
-- mst
-- dijkstra
+ch5. graph
 
-ch5. backtracking
+ch6. backtracking
