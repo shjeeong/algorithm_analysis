@@ -1,4 +1,4 @@
-## graph
+## graph: DFS
 
 # Strongly Connected Components (SCC)
 
@@ -21,3 +21,5 @@ directed graph의 SCC를 묶어서 graph를 만든 것을 SCC graph라고 한다
 ![image-20230614151433000](./image/image-20230614151433000.png)
 
 (1번 과정은 SCC끼리 topological sort를 하는 과정으로, 2번 과정 계산 시 한 component에서 다른 component로 DFS를 통해 이동하는 것을 막는다.)
+
+이때 C에는 들어오는 edge만 있어서 sink라고 부르고, A에는 빠져나가는 edge만 있어서 source라고 부른다. DAG(directed async graph)에는 항상 source와 sink 노드가 존재한다. 그렇지 않으면 사이클이 생기게 된다.

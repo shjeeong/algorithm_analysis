@@ -1,4 +1,4 @@
-## graph
+## graph: DFS
 
 # Topological Sort
 
